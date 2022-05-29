@@ -197,6 +197,7 @@ fig.subplots_adjust(top=0.93, wspace=0.3)
 
 #Case
 
+import seaborn as sns
 from pydataset import data
 df = data('mtcars')
 
